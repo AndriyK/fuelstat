@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fb6297e28abb609d75eda4de27e857fb",
+    "revision": "aa5e21955567cc7ebe24639cf7d6b63d",
     "url": "/fuelstat/index.html"
   },
   {
-    "revision": "adb975726527fc3d390e",
+    "revision": "bf71ec0952ede8f94633",
     "url": "/fuelstat/static/css/main.34de6062.chunk.css"
   },
   {
-    "revision": "5c722f06060fa388096a",
-    "url": "/fuelstat/static/js/2.2ab0f3a4.chunk.js"
+    "revision": "84e27da66d6fa830e1eb",
+    "url": "/fuelstat/static/js/2.2e930ff0.chunk.js"
   },
   {
-    "revision": "adb975726527fc3d390e",
-    "url": "/fuelstat/static/js/main.6fc2f4ab.chunk.js"
+    "revision": "bf71ec0952ede8f94633",
+    "url": "/fuelstat/static/js/main.5ea117a8.chunk.js"
   },
   {
     "revision": "e10324191d46cc21a063",
