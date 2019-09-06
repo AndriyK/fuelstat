@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/fuelstat/static/css/main.34de6062.chunk.css",
-    "main.js": "/fuelstat/static/js/main.5ea117a8.chunk.js",
-    "main.js.map": "/fuelstat/static/js/main.5ea117a8.chunk.js.map",
+    "main.js": "/fuelstat/static/js/main.9e640adb.chunk.js",
+    "main.js.map": "/fuelstat/static/js/main.9e640adb.chunk.js.map",
     "runtime~main.js": "/fuelstat/static/js/runtime~main.c82ca244.js",
     "runtime~main.js.map": "/fuelstat/static/js/runtime~main.c82ca244.js.map",
-    "static/js/2.2e930ff0.chunk.js": "/fuelstat/static/js/2.2e930ff0.chunk.js",
-    "static/js/2.2e930ff0.chunk.js.map": "/fuelstat/static/js/2.2e930ff0.chunk.js.map",
+    "static/js/2.ebb4a56f.chunk.js": "/fuelstat/static/js/2.ebb4a56f.chunk.js",
+    "static/js/2.ebb4a56f.chunk.js.map": "/fuelstat/static/js/2.ebb4a56f.chunk.js.map",
     "index.html": "/fuelstat/index.html",
-    "precache-manifest.321c1f658ea8f3d65d2a1057d305650a.js": "/fuelstat/precache-manifest.321c1f658ea8f3d65d2a1057d305650a.js",
+    "precache-manifest.33b54ad5a272bd22559e2ea5f0fa7bd0.js": "/fuelstat/precache-manifest.33b54ad5a272bd22559e2ea5f0fa7bd0.js",
     "service-worker.js": "/fuelstat/service-worker.js",
     "static/css/main.34de6062.chunk.css.map": "/fuelstat/static/css/main.34de6062.chunk.css.map",
     "static/media/logo.svg": "/fuelstat/static/media/logo.5d5d9eef.svg"
