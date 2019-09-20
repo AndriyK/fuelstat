@@ -1,15 +1,17 @@
 {
   "files": {
     "main.css": "/fuelstat/static/css/main.34de6062.chunk.css",
-    "main.js": "/fuelstat/static/js/main.9e640adb.chunk.js",
-    "main.js.map": "/fuelstat/static/js/main.9e640adb.chunk.js.map",
+    "main.js": "/fuelstat/static/js/main.64be35c7.chunk.js",
+    "main.js.map": "/fuelstat/static/js/main.64be35c7.chunk.js.map",
     "runtime~main.js": "/fuelstat/static/js/runtime~main.c82ca244.js",
     "runtime~main.js.map": "/fuelstat/static/js/runtime~main.c82ca244.js.map",
-    "static/js/2.ebb4a56f.chunk.js": "/fuelstat/static/js/2.ebb4a56f.chunk.js",
-    "static/js/2.ebb4a56f.chunk.js.map": "/fuelstat/static/js/2.ebb4a56f.chunk.js.map",
+    "static/css/2.56551a7f.chunk.css": "/fuelstat/static/css/2.56551a7f.chunk.css",
+    "static/js/2.ca48d18e.chunk.js": "/fuelstat/static/js/2.ca48d18e.chunk.js",
+    "static/js/2.ca48d18e.chunk.js.map": "/fuelstat/static/js/2.ca48d18e.chunk.js.map",
     "index.html": "/fuelstat/index.html",
-    "precache-manifest.33b54ad5a272bd22559e2ea5f0fa7bd0.js": "/fuelstat/precache-manifest.33b54ad5a272bd22559e2ea5f0fa7bd0.js",
+    "precache-manifest.a5ce7c2551b0786b15eaaa5561950e1d.js": "/fuelstat/precache-manifest.a5ce7c2551b0786b15eaaa5561950e1d.js",
     "service-worker.js": "/fuelstat/service-worker.js",
+    "static/css/2.56551a7f.chunk.css.map": "/fuelstat/static/css/2.56551a7f.chunk.css.map",
     "static/css/main.34de6062.chunk.css.map": "/fuelstat/static/css/main.34de6062.chunk.css.map",
     "static/media/logo.svg": "/fuelstat/static/media/logo.5d5d9eef.svg"
   }
