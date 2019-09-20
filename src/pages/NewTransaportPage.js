@@ -1,78 +1,33 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { makeStyles } from '@material-ui/core/styles';
-import AppBar from '@material-ui/core/AppBar';
-import Toolbar from '@material-ui/core/Toolbar';
-import Typography from '@material-ui/core/Typography';
-import TextField from '@material-ui/core/TextField';
-import Button from '@material-ui/core/Button';
-
-const useStyles = makeStyles(theme => ({
-  container: {
-    display: 'flex',
-    flexWrap: 'wrap',
-  },
-  textField: {
-    marginLeft: theme.spacing(1),
-    marginRight: theme.spacing(1),
-    width: 200,
-  },
-}));
 
 function NewTransportPage() {
-  const classes = useStyles();
 
   return (
     <div>
-    	<AppBar position="static">
-    		<Toolbar>
-    			<Typography variant="h6" >New vehicle</Typography>
-    		</Toolbar>
-    	</AppBar>
-	    <form >
-		    <TextField
-		        id="transport-name"
-		        label="Name"
-		        defaultValue=""
-		        margin="normal"
-		        className={classes.textField}
-		    />
-		    <br />
-		    <TextField
-		        id="transport-engine"
-		        label="Engine"
-		        defaultValue=""
-		        margin="normal"
-		        className={classes.textField}
-		    />
-	    	<br />
-	    	<TextField
-		        id="mileage"
-		        label="Mileage"
-		        defaultValue=""
-		        margin="normal"
-		        className={classes.textField}
-		    />
-	    	<br />
-	    	<Button
-			  variant="outlined"
-			  component="label"
-			  size="small"
-			  style={{ margin: "10px" }}
-			>
-			  Upload image
-			  <input
-			    type="file"
-			    style={{ display: "none" }}
-			  />
-			</Button>
-			<br />
-			<Button variant="contained" color="primary" style={{ margin: "10px", marginLeft: "70px" }}>
-	          Add
-	        </Button>
-	        <br />
-	    	<Link to="/">Return to Home</Link>
-	    </form>    	
+    	<nav className="navbar navbar-dark bg-primary">
+		  <span className="navbar-brand">New vehicle</span>
+		</nav>
+		<form className="ml-2">
+		  <div className="form-group">
+		    <label for="name">Name</label>
+		    <input type="text" className="form-control" id="name" aria-describedby="name" placeholder="Enter vehicle name" />
+		  </div>
+		  <div className="form-group">
+		    <label for="engine">Engine</label>
+		    <input type="text" className="form-control" id="engine" aria-describedby="name" placeholder="Enter engine" />
+		  </div>
+		  <div className="form-group">
+		    <label for="miliage">Miliage</label>
+		    <input type="text" className="form-control" id="miliage" aria-describedby="name" placeholder="Enter current miliage" />
+		  </div>
+		  <div className="custom-file">
+		    <input type="file" className="custom-file-input" id="image" />
+		    <label className="custom-file-label" for="image">Choose vehicle picture</label>
+		  </div>
+		  <button type="submit" class="btn btn-primary">Add</button>
+		</form>
+	   	<Link to="/">Return to Home</Link>
     </div>
 
   );

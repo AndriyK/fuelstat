@@ -1,65 +1,22 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { makeStyles } from '@material-ui/core/styles';
-import AppBar from '@material-ui/core/AppBar';
-import Toolbar from '@material-ui/core/Toolbar';
-import Typography from '@material-ui/core/Typography';
-import IconButton from '@material-ui/core/IconButton';
-import MenuIcon from '@material-ui/icons/Menu';
-import MoreVertIcon from '@material-ui/icons/MoreVert';
-import Menu from '@material-ui/core/Menu';
-import MenuItem from '@material-ui/core/MenuItem';
-
-const useStyles = makeStyles(theme => ({
-  root: {
-    flexGrow: 1,
-  },
-  menuButton: {
-    marginLeft: theme.spacing(2),
-  },
-  title: {
-    flexGrow: 1,
-  },
-}));
 
 function HomePage() {
-  const classes = useStyles();
-  const [anchorEl, setAnchorEl] = React.useState(null);
-
-  function handleClick(event) {
-    setAnchorEl(event.currentTarget);
-  }
-
-  function handleClose() {
-    setAnchorEl(null);
-  }
-
   return (
-    <div className={classes.root}>
-       	<AppBar position="static">
-    		<Toolbar>
-    			<Typography variant="h6" className={classes.title}>My vehicles</Typography>
-		    	<IconButton edge="start" color="inherit" aria-label="menu" onClick={handleClick} className={classes.menuButton} >
-	            	<MoreVertIcon />
-	            </IconButton>
-		      	<Menu
-			        id="simple-menu"
-			        anchorEl={anchorEl}
-			        keepMounted
-			        open={Boolean(anchorEl)}
-			        onClose={handleClose}
-			      >
-			        <MenuItem onClick={handleClose}  component={Link} to="/new-transport">
-			        	Add new vehicle
-			        	
-			        </MenuItem>
-			        <MenuItem onClick={handleClose}>Import</MenuItem>
-			        <MenuItem onClick={handleClose}>Export</MenuItem>
-			        <MenuItem onClick={handleClose}>Settings</MenuItem>
-		        </Menu>
-	        </Toolbar>
-    	</AppBar>
-    </div>
+  	<nav className="navbar navbar-dark bg-primary">
+	  <span className="navbar-brand">My vehicles</span>
+	  <div className="dropdown">
+	  	<a className="btn" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    		<i className="material-icons">more_vert</i>
+  		</a>
+		<div className="dropdown-menu dropdown-menu-lg-right" aria-labelledby="dropdownMenuButton">
+			<Link className="dropdown-item" to="/new-transport">Add new vehicle</Link>
+			<Link className="dropdown-item" to="/">Import</Link>
+			<Link className="dropdown-item" to="/">Export</Link>
+			<Link className="dropdown-item" to="/">Settings</Link>
+		</div>
+      </div>
+	</nav>
   );
 }
 

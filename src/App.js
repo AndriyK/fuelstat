@@ -1,3 +1,7 @@
+import "bootswatch/dist/materia/bootstrap.min.css";
+import $ from 'jquery';
+import Popper from 'popper.js';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
 import React from 'react';
 import logo from './logo.svg';
 //import './Appcss';
