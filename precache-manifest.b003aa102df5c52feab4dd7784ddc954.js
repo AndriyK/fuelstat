@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b5b370aa0e405380e6cafd549f195109",
+    "revision": "a4e2d296f88de9e1e6cb29c1b0451b5a",
     "url": "/fuelstat/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/fuelstat/static/css/2.56551a7f.chunk.css"
   },
   {
-    "revision": "aa12109918be2448d03b",
+    "revision": "a44ae419ccf0f8bedca0",
     "url": "/fuelstat/static/css/main.34de6062.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/fuelstat/static/js/2.ca48d18e.chunk.js"
   },
   {
-    "revision": "aa12109918be2448d03b",
-    "url": "/fuelstat/static/js/main.64be35c7.chunk.js"
+    "revision": "a44ae419ccf0f8bedca0",
+    "url": "/fuelstat/static/js/main.7cd3a0d9.chunk.js"
   },
   {
     "revision": "e10324191d46cc21a063",
